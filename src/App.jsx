@@ -6,10 +6,12 @@ import FriendList from './components/FriendList';
 import friends from './friends.json';
 import TransactionHistory from './components/TransactionHistory';
 import transactions from './transactions.json';
+import s from './components/container.module.css';
+
 
 export default function App() {
   return (
-    <div>
+    <div className={s.container}>
       <Profile
         avatar={profile.avatar}
         name={profile.name}

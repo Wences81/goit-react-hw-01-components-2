@@ -2,12 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-left: 20px;
-  padding-bottom: 10px;
+  padding: 15px;
 
   margin-bottom: 20px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  border: solid rgb(128, 221, 128) 1px;
 }
 
 .online {
@@ -17,7 +18,7 @@
   margin-right: 15px;
 
   border-radius: 50%;
-  background-color: green;
+  background-color: rgb(128, 221, 128);
 }
 
 .offline {
@@ -27,11 +28,12 @@
   margin-right: 15px;
 
   border-radius: 50%;
-  background-color: red;
+  background-color: rgb(209, 48, 214);
 }
 
 .name {
   margin-top: 15px;
-  margin-left: 15px;
-  font-weight: 500;
+  margin-left: 35px;
+  font-weight: 700;
+  font-size: 20px;
 }
