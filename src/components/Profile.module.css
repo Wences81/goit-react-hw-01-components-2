@@ -36,14 +36,17 @@
 
 .tag {
   margin-top: 20px;
+  margin-bottom: 10px;
   font-weight: 500;
-  color: rgb(102, 95, 95);
+  font-size: 26px;
+  color: rgb(64, 67, 100);
 }
 
 .location {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 500;
+  font-size: 26px;
   color: rgb(102, 95, 95);
 }
 
@@ -51,12 +54,7 @@
   display: flex;
   align-items: center;
   max-width: 300px;
-}
-
-.label {
-  font-weight: 500;
-  font-size: 12px;
-  color: rgb(102, 95, 95);
+  padding-left: 0;
 }
 
 .statsItem {
@@ -65,11 +63,18 @@
   align-items: center;
   width: 100px;
   padding: 20px;
-  border: 1px solid rgb(158, 152, 152);
+  border: 1px solid rgb(187, 232, 253);
+  border-radius: 4%;
 }
 
 .quantity {
   margin-top: 10px;
-  font-size: small;
+  font-size: 16px;
   font-weight: 700;
+}
+
+.label {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(44, 29, 78);
 }
