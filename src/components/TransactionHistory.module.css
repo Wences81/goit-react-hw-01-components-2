@@ -1,0 +1,26 @@
+.transactionHistory {
+  width: 600px;
+  margin: 50px;
+}
+
+.name {
+  background-color: rgb(42, 136, 212);
+  color: white;
+}
+
+.string {
+  text-align: center;
+}
+
+.string:nth-child(even) {
+  background-color: rgb(193, 230, 236);
+}
+
+.td {
+  padding: 8px;
+  text-transform: capitalize;
+}
+
+.th {
+  padding: 8px;
+}
