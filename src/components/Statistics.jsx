@@ -3,14 +3,6 @@ import PropTypes from 'prop-types';
 
 
 
-const colorPicker = () => {
-  const red = Math.round(Math.random() * 255);
-  const green = Math.round(Math.random() * 255);
-  const blue = Math.round(Math.random() * 255);
-  const backgroundColor = `rgb(${red}, ${green}, ${blue})`;
-
-  return backgroundColor;
-};
 
 export default function Statistics({ title, stats }) {
   return (
@@ -39,3 +31,13 @@ Statistics.propTypes = {
     }),
   ),
 };
+
+
+
+function colorPicker()  {
+  const red = Math.round(Math.random() * 255);
+  const green = Math.round(Math.random() * 255);
+  const blue = Math.round(Math.random() * 255);
+  return ( `rgb(${red}, ${green}, ${blue})`);
+
+  };
