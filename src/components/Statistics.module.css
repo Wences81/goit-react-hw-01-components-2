@@ -1,28 +1,40 @@
 .statistics {
   max-width: 300px;
-  margin: 50px;
+  margin: 50px auto 50px 250px;
+  padding-top: 15px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .title {
   margin-bottom: 20px;
   text-align: center;
+  color: blue;
 }
 
 .statList {
   display: flex;
   justify-content: space-between;
+  padding-left: 0;
 }
 
 .item {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  background-color: rgb(173, 117, 226);
+  width: 100%;
 }
 
 .label {
-  font-size: 12px;
+  font-size: 18px;
   margin-bottom: 5px;
+  color: aliceblue;
 }
 
 .percentage {
   font-weight: 500;
+  font-size: 14px;
+  color: aliceblue;
 }
