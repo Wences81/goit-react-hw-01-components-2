@@ -1,22 +1,20 @@
 .profile {
-  display: flex;
-  flex-direction: column;
-
+  padding: 50px;
   max-width: 300px;
   margin-top: 20px;
-
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(82, 124, 216);
   border-radius: 4%;
 }
 
 .description {
+  padding-top: 50px;
+  max-width: 300px;
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  max-width: 300px;
-  padding-top: 50px;
   background-color: rgb(133, 184, 231);
   border-radius: 4%;
 }
@@ -51,18 +49,19 @@
 }
 
 .stats {
+  padding-left: 0;
   display: flex;
   align-items: center;
   max-width: 300px;
-  padding-left: 0;
 }
 
 .statsItem {
+  padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100px;
-  padding: 20px;
+
   border: 1px solid rgb(187, 232, 253);
   border-radius: 4%;
 }

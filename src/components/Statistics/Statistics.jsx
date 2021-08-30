@@ -1,7 +1,5 @@
-import s from './Statistics.module.css';
 import PropTypes from 'prop-types';
-
-
+import s from './Statistics.module.css';
 
 
 export default function Statistics({ title, stats }) {
@@ -10,10 +8,10 @@ export default function Statistics({ title, stats }) {
       {title && <h2 className={s.title}>{title}</h2>}
 
       <ul className={s.statList}>
-        {stats.map(stat => (
-          <li className={s.item} key={stat.id} style={{ backgroundColor: colorPicker() }}>
-            <span className={s.label}>{stat.label}</span>
-            <span className={s.percentage}>{stat.percentage} %</span>
+        {stats.map(({id, label, percentage}) => (
+          <li className={s.item} key={id} style={{ backgroundColor: colorPicker() }}>
+            <span className={s.label}>{label}</span>
+            <span className={s.percentage}>{percentage} %</span>
           </li>
         ))}
       </ul>

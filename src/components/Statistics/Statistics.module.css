@@ -1,8 +1,7 @@
 .statistics {
-  width: 400px;
   margin-top: 50px;
   margin-bottom: 50px;
-
+  width: 400px;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
 }
@@ -10,32 +9,34 @@
 .title {
   margin-bottom: 20px;
   text-align: center;
-  color: blue;
+  color: rgb(0, 0, 255);
 }
 
 .statList {
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   padding-left: 0;
 }
 
 .item {
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
+
   background-color: rgb(173, 117, 226);
   width: 100%;
 }
 
 .label {
-  font-size: 18px;
   margin-bottom: 5px;
-  color: aliceblue;
+  font-size: 18px;
+  color: rgb(240, 248, 255);
 }
 
 .percentage {
   font-weight: 500;
   font-size: 14px;
-  color: aliceblue;
+  color: rgb(240, 248, 255);
 }
